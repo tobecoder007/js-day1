@@ -1,13 +1,13 @@
-// let score = 33
+//  let score = 33
 
-// console.log(typeof score);
-// console.log(typeof (score));
+//  console.log(typeof score);
+//  console.log(typeof (score));
 
 // let valueInNumber = Number(score)
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
-// let score = "33abc"
+// let score = "abc"
 
 // console.log(typeof score);
 // console.log(typeof (score));
@@ -25,14 +25,24 @@
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
-// let score = false
+// let score = false                                    
 
 // console.log(typeof score);
 // console.log(typeof (score));
 
 // let valueInNumber = Number(score)
-// console.log(typeof valueInNumber);
+// console.log(typeof valueInNumber);        
 // console.log(valueInNumber);
+
+// let score = null
+
+// console.log(typeof score);
+// console.log(typeof (score))
+
+// let newScore = Number(score);
+
+// console.log(newScore);
+// console.log(typeof newScore);
 
 // let score = NaN
 
@@ -60,6 +70,15 @@
 // let valueInNumber = Number(score)
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
+
+// const sym = Symbol("foo");
+// console.log(typeof sym)
+
+
+// // typeof sym; // "symbol"
+// const symObj = Object(sym);
+// console.log(typeof symObj)
+// // typeof symObj; // "object"
 
 // "33" => 33
 // "33abc" => NaN
@@ -119,8 +138,8 @@
 
 // console.log((3 + 4) * 5 % 3);
 
-console.log(+true);
+// console.log(+true);
 
-let gameCounter = 100
-++gameCounter
-console.log(gameCounter) 
+// let gameCounter = 100
+// ++gameCounter
+// console.log(gameCounter) 
