@@ -1,0 +1,64 @@
+// Variable are container used to store value ( storing data values)
+// Variable can be decalred by let, const, var and by nothing 
+
+let x = "hey";
+const toalSum = 500;
+var cartValue = 500;
+y = false;
+
+// console.table([toalSum, x, cartValue, y]);
+// console.table([typeof toalSum, typeof x, typeof cartValue, typeof y])
+
+// console.log(`
+// x is = ${x}
+// total sum is = ${toalSum}
+// Total Cart Value is = ${cartValue}
+// login status = ${y}
+// `);
+
+//*****************************************************************************************************************************//
+ 
+// Scopes - Global, function, block  
+
+// let and const - have block scope  { cannot be declared again }
+
+
+// Global scope
+
+// let x = 50
+// console.log(x)
+
+
+// Block Scope
+
+// {
+//     let x = 100;
+//     console.log("inner:" , x)
+// }
+
+
+//*****************************************************************************************************************************//
+
+
+// function myFunction(p1, p2) {
+//     return p1 * p2;
+//   }
+  
+//   let result = myFunction(4, 3);
+//   console.log(result)  
+   
+
+// function myWebsite(){
+// const website = ".xyz"
+// console.log(website)
+// }
+
+// myWebsite()
+
+
+// const car = {
+// name: "lavish",
+// age: 18
+// }
+
+// console.log(car.age)

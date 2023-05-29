@@ -48,10 +48,13 @@ function loginUserMessage1(username = "sam"){
         console.log("Please enter a username");
         return
     }
+    // loginUserMessage()
     return `${username} just logged in` 
 }
 
-// console.log(loginUserMessage("Hitesh")) 
+let a = loginUserMessage("Hitesh")
+
+console.log(a) 
 // console.log(loginUserMessage1("Samagain"));
 
 
@@ -89,4 +92,4 @@ function returnSecondvalue (getNewarray){
 }
 
 // console.log(returnSecondvalue(myNewarray));
-console.log(returnSecondvalue([200, 400, 500, 1000]));
+console.log(returnSecondvalue([200, 400, 500, 1000])); 
