@@ -1,6 +1,8 @@
 // for ( Break & Continue )
 // While 
 // Do While
+// for of (Array)
+// for in (Objects)
 
 // for (let index = 0; index != 10; index++) {
 //     const element = index
