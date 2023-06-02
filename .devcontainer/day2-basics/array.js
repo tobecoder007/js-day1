@@ -12,7 +12,7 @@
 
 // Array Methods 
 
-// myArr.push(6)
+myArr.push(6)
 // myArr.push(9)
 // myArr.pop() 
 
@@ -22,7 +22,7 @@
 // console.log(myArr.includes(3)); // question type
 // console.log(myArr.indexOf(12))
 // console.log(myArr.indexOf(15))
-// console.log(myArr);
+console.log(myArr);
 
 // const newArr = myArr.join()
 
@@ -33,13 +33,13 @@
 
 // Slice and Splice 
 
-console.log("A ", myArr);
+// console.log("A ", myArr);
 
-const myn1 = myArr.slice(1, 3)
+// const myn1 = myArr.slice(1, 3)
 
-console.log(myn1);
-console.log("B ", myArr);
+// console.log(myn1);
+// console.log("B ", myArr);
 
-const myn2 = myArr.splice(1, 3)
-console.log(myn2);
-console.log("C ", myArr);
+// const myn2 = myArr.splice(1, 3)
+// console.log(myn2);
+// console.log("C ", myArr);
