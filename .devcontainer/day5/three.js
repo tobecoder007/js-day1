@@ -1,4 +1,4 @@
-// for of
+// for of - works for Array & Maps
 
 // ["h", "i", "w", "o"]
 // [{}, {}, {}]
@@ -22,5 +22,16 @@ map.set('USA', "United States Of America")
 map.set('FR', "France")
 
 for (const [key, value] of map) {
+    console.log(key, '-', value);
+}
+
+// Object cannot be iterated
+
+const myObject = {
+    'game1' : 'NFS',
+    'game2' : 'Spiderman'
+}
+
+for (const [key, value] of myObject) {
     console.log(key, '-', value);
 }
